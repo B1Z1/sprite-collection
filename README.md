@@ -20,7 +20,7 @@ I think, that can improve your developing experience when you provide simple pro
 # Basic Usage Example
 
 ```ts
-import { SpriteCollection, SpriteStore } from 'spritejs';
+import { SpriteCollection, SpriteStore } from 'sprite-collection';
 
 // Init collection namespace and data
 enum Heroes {
