@@ -1,6 +1,6 @@
 {
   "name": "sprite-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mini sprite storage for readable store data",
   "main": "lib/index.js",
   "types": "lib",
