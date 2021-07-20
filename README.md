@@ -15,7 +15,7 @@ I think, that can improve your developing experience when you provide simple pro
 
 # NPM Install
 
-`npm i spritejs --save`
+`npm i sprite-collection --save`
 
 # Basic Usage Example
 
