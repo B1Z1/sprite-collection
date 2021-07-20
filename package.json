@@ -2,9 +2,10 @@
   "name": "sprite-collection",
   "version": "1.0.1",
   "description": "Mini sprite storage for readable store data",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/B1Z1/sprite-collection/issues"
   },
-  "homepage": "https://github.com/B1Z1/sprite-collection#readme"
+  "homepage": "https://github.com/B1Z1/sprite-collection#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }

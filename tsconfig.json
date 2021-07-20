@@ -3,15 +3,25 @@
     "baseUrl": "./",
     "module": "commonjs",
     "target": "es5",
+    "declaration": true,
     "sourceMap": true,
+    "outDir": "./lib",
     "paths": {
       "src/*": [
         "./src/*"
       ]
-    }
+    },
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection"
+    ]
   },
   "exclude": [
     "node_modules"
   ],
-  "include": ["src/**/**"]
+  "include": [
+    "src/**/*"
+  ]
 }
